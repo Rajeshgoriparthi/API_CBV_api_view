@@ -18,6 +18,7 @@ class Product(models.Model):
     p_price=models.CharField(max_length=10)
     p_description=models.TextField()
     p_date=models.DateField()
+    
 
 
     def __str__(self):
